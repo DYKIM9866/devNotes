@@ -1,5 +1,8 @@
 # dev-note
 
+## Spring Annotation
+[Spring Annotation](Spring_Annotation.md)
+
 ## 1주 - HTTP
 * [1-1. HTTP 이해](1/1-1.md)
 * [1-2. HTTP Client](1/1-2.md)
@@ -9,3 +12,7 @@
 
 ## 2주 - REST API
 * [2-1. REST API](2/2-1.md)
+* [2-2. URI & MIME type](2/2-2.md)
+* [2-3. Collection Pattern](2/2-3.md)
+
+## 3주 - DTO & JSON & CORS
