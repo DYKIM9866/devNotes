@@ -7,3 +7,8 @@
 - @RequestBody - HttpRequest에 담겨오는 body를 자바객체로 변환해준다. XML/JSON 기반의 메시지를 사용한다면 body의 데이터 통째로 VO로 매핑해준다.
 - @ExceptionHandler - Controller에서 발생하는 에러를 가져와 메소드로 처리해준다. 구체적인 Exception을 적어주는 것이 좋다.
 - @ResponseStatus - HttpResponse의 응답 상태를 설정해주는 어노테이션, HttpStatus Enum 클래스를 사용해 값을 넣어준다.
+- @Transactional - 선언적 트랜잭션 처리를 지원한다. 
+- @Resource - 빈의 이름을 이용해 주입할 객체를 찾아서 넣어준다. (필드, 메소드에만 적용)
+- @Autowired - 타입으로 객체를 주입한다. (필드,메소드, 생성자 모두 적용 가능)
+- @JsonProperty - json과 엔티티의 데이터 형태가 다를때 (ex. camel, snake) 이름을 지정해 줄 수 있다. 저런 형태 뿐만아니라 걍 내가 정해주고 싶은걸로 정해줄 수 도 있음
+- @CrossOrigin - 모든 도메인, 모든 요청방식 에 대해 허용한다.
