@@ -20,3 +20,6 @@
 * [3-2. 직렬화](3/3-2.md)
 * [3-3. Jackson ObjectMapper](3/3-3.md)
 * [3-4. CORS](3/3-4.md)
+
+## 4주 - Layered Architecture
+* [4-1. Layered Architecture](4/4-1.md)
